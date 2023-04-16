@@ -8,12 +8,12 @@
 
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <div class="container">
            <h1>DC comics</h1>
         </div>
         <div class="container">
-            <ul>
+            <ul class="nav-header">
                 <li>
                     <a href="{{ route('home') }}">Home </a>
                 </li>
