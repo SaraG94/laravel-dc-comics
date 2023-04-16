@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class ComicController extends Controller
 {
+    public function home(){
+        return view('layouts.home');
+    }
+
     public function index()
     {
         $comics = Comic::all();

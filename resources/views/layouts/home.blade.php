@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
-@section('page-title','Ours Comics')
+@section('page-title','Home')
 @section('content')
 
   <div class="container">
-    index
+       <h3>Benvenuto...</h3>
   </div>
 
 @endsection

@@ -15,13 +15,13 @@
         <div class="container">
             <ul>
                 <li>
-                    <a href="#">Home </a>
+                    <a href="{{ route('home') }}">Home </a>
                 </li>
                 <li>
-                    <a href="#">All comics </a>
+                    <a href="{{ route('comics.index') }}">All comics </a>
                 </li>
                 <li>
-                    <a href="#">Insert a comic</a>
+                    <a href="{{ route('comics.create') }}">Insert a comic</a>
                 </li>
             </ul>
         </div>
