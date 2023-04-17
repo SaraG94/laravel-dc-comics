@@ -8,8 +8,9 @@
   </div>
 
   <div class="container">
-    <form action="" method="POST">
+    <form action="{{ route('comics.update',$comic) }}" method="POST">
     @csrf
+    @method('PUT')
 
       <div class="form-group">
         <label for="title">Title</label>
