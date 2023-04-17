@@ -9,6 +9,7 @@
         <tr>
           <th scope="col">Comic Title</th>
           <th scope="col">Link</th>
+          <th scope="col"></th>
         </tr>
       </thead>
       <tbody>
@@ -22,6 +23,11 @@
           <td>
             <a href="{{ route('comics.show',$comic->id) }}">
               more info               
+            </a>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="">
+              Edit              
             </a>
           </td>
 
