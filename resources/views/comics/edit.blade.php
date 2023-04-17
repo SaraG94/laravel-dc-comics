@@ -4,7 +4,7 @@
 @section('content')
 
   <div class="container">
-    <h2>Modifica questo comic:</h2>
+    <h2>Modifica {{ $comic->title }} :</h2>
   </div>
 
   <div class="container">
