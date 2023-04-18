@@ -24,7 +24,8 @@ class ComicController extends Controller
 
     public function show(Comic $comic)
     {
-        return view('comics.show', compact('comic'));
+        $pageTitle = $comic->title;
+        return view('comics.show', compact('comic','pageTitle'));
     }
 
     public function store(Request $request)
