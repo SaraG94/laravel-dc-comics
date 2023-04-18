@@ -29,6 +29,7 @@
             <a class="btn btn-primary btn-sm" href="{{ route('comics.edit',$comic) }}">
               Edit              
             </a>
+            
           </td>
 
         </tr>

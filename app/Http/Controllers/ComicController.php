@@ -64,4 +64,10 @@ class ComicController extends Controller
 
         return to_route('comics.show', $comic);
     }
+
+    public function destry(Comic $comic)
+    {
+        $comic->delete();
+        return to_route('comics.index');
+    }
 }
