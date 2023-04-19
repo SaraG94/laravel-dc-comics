@@ -30,7 +30,7 @@ class ComicController extends Controller
 
     public function store(Request $request)
     {
-        $data=$request->validation([
+        $data=$request->validate([
             'title'=>'required|max:255|min:2',
             'description'=>'required|max:800|min:10',
             'thumb'=>'required|url',
@@ -61,7 +61,7 @@ class ComicController extends Controller
 
     public function update(Request $request, Comic $comic)
     {   
-        $data=$request->validation([
+        $data=$request->validate([
             'title'=>'required|max:255|min:2',
             'description'=>'required|max:800|min:10',
             'thumb'=>'required|url',
